@@ -1,14 +1,13 @@
-// Copyright (c) 2026 James Ross
-`default_nettype none
+/* Copyright 2026 James Ross */
 module tt_um_prime_quine(
-  input  wire [7:0] ui_in,
-  output wire [7:0] uo_out,
-  input  wire [7:0] uio_in,
-  output wire [7:0] uio_out,
-  output wire [7:0] uio_oe,
-  input  wire       ena,
-  input  wire       clk,
-  input  wire       rst_n
+  input  [7:0] ui_in,
+  output [7:0] uo_out,
+  input  [7:0] uio_in,
+  output [7:0] uio_out,
+  output [7:0] uio_oe,
+  input        ena,
+  input        clk,
+  input        rst_n
 );
   wire u, v, p;
   q q(.k(clk), .u(u), .v(v), .p(p));
