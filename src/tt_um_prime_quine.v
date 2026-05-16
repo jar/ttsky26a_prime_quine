@@ -1,5 +1,5 @@
 // Copyright (c) 2026 James Ross
-// SPDX-License-Identifier: Apache-2.0i
+// SPDX-License-Identifier: Apache-2.0
 module tt_um_prime_quine(
   input  [7:0] ui_in,
   output [7:0] uo_out,
